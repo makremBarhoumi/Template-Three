@@ -280,6 +280,10 @@ header .mega-menu .links li::before {
   z-index: -1;
   transition: var(--mainTransition);
 }
+@media (max-width: 767px) {
+  header .mega-menu .links:first-child li:last-child {
+    border-bottom: 1x solid #e9e6e6
+}
 
 header .mega-menu .links li:hover:before {
   width: 100%;
