@@ -268,6 +268,11 @@ header .mega-menu .links li {
 header .mega-menu .links li:not(:last-child) {
   border-bottom: 1px solid #e9e6e6;
 }
+@media (max-width: 767px) {
+  header .mega-menu .links:last-of-type li:first-of-type {
+    border-top: 1px solid #e9e6e6;
+  }
+}
 
 header .mega-menu .links li::before {
   content: "";
